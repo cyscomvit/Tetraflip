@@ -6,7 +6,7 @@ footer {
 
 .foot-head {
   display: inline-block;
-  color: #ff7675;
+  color: #238636;
 }
 
 .line {
@@ -43,7 +43,7 @@ footer {
   padding: 20px;
   margin: 5px 10px;
   transition: all 0.4s;
-  color: #ff7675;
+  color: #238636;
 }
 
 .main-icons:hover {
@@ -61,6 +61,25 @@ footer {
 
 .owasp-logo {
 	margin-right: 20px;
+}
+
+.bubbles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1rem;
+  background: var(--footer-background);
+  filter: url("#blob");
+}
+.bubbles .bubble {
+  position: absolute;
+  left: var(--position, 50%);
+  background: var(--footer-background);
+  border-radius: 100%;
+  -webkit-animation: bubble-size var(--time, 4s) ease-in infinite var(--delay, 0s), bubble-move var(--time, 4s) ease-in infinite var(--delay, 0s);
+          animation: bubble-size var(--time, 4s) ease-in infinite var(--delay, 0s), bubble-move var(--time, 4s) ease-in infinite var(--delay, 0s);
+  transform: translate(-50%, 100%);
 }
 
 @media(max-width: 768px) {

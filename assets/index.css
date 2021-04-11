@@ -24,7 +24,7 @@ body {
 }
 
 .accordion_container .accordion_header {
-    background: #f6434c;
+    background: rgba(0, 13, 26, 1);
     padding: 35px 15px;
     height: 100px;
     text-align: center;
@@ -76,7 +76,7 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: #f6434c;
+    background: rgba(0, 13, 26, 1);
     position: relative;
 }
 
