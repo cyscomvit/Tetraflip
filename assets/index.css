@@ -106,7 +106,7 @@ body {
 }
 
 .accordion_container .accordion_body ul li.active {
-    height: 200px;
+    height: 250px;
 }
 
 .accordion_container .accordion_body ul li.active .li_ans {
