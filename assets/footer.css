@@ -3,8 +3,11 @@ footer {
   top: 16em;
 }
 
-
 .foot-head {
+  display: inline-block;
+  color: #238636;
+}
+.foot-head1 {
   display: inline-block;
   color: #238636;
 }
@@ -28,8 +31,12 @@ footer {
 }
 
 .para {
-	margin-top: 20px;
-	color: white;
+  margin-top: 20px;
+  color: white;
+}
+.para1 {
+  margin-top: 10px;
+  color: white;
 }
 
 .overlay {
@@ -53,14 +60,14 @@ footer {
 
 .foot-head:hover .line::after {
   width: 100%;
-}	
+} 
 
 .icon-tray > span {
-	color: white;
+  color: white;
 }
 
 .owasp-logo {
-	margin-right: 20px;
+  margin-right: 20px;
 }
 
 .bubbles {
@@ -83,15 +90,35 @@ footer {
 }
 
 @media(max-width: 768px) {
-	.hiih {
-		margin-bottom: 20px;
-	}	
-	.android-logo {
-		margin: -30px;
-	}
-}	
+  .hiih {
+    margin-bottom: 20px;
+  } 
+  .text-center{
+    margin-bottom: 50px;
+  }
+  .android-logo {
+    margin: -30px;
+  }
+  .foot-head{
+    font-size: 24px;
+    
+  }
+  .foot-head1{
+    font-size: 24px;
+    margin-left: 20px;
+  }
+} 
 @media(max-width: 480px){
-	.line::after{
-		bottom: -2.5em;
-	}
+  .line::after{
+    bottom: -2.5em;
+  }
+  .foot-head{
+    font-size: 24px;
+    
+  }
+  .foot-head1{
+    font-size: 24px;
+    margin-left: 20px;
+  }
 }
+
