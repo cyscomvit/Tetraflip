@@ -8,10 +8,6 @@ footer {
   display: inline-block;
   color: #238636;
 }
-.foot-head1 {
-  display: inline-block;
-  color: #238636;
-}
 
 .line {
   position: relative;
@@ -93,25 +89,9 @@ footer {
 	.android-logo {
 		margin: -30px;
 	}
-  .foot-head{
-    font-size: 24px;
-    
-  }
-  .foot-head1{
-    font-size: 24px;
-    margin-left: 20px;
-  }
 }	
 @media(max-width: 480px){
 	.line::after{
 		bottom: -2.5em;
 	}
-  .foot-head{
-    font-size: 24px;
-    
-  }
-  .foot-head1{
-    font-size: 24px;
-    margin-left: 20px;
-  }
 }
