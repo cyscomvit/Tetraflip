@@ -48,6 +48,9 @@
     <!-- MASTER  STYLESHEET  -->
     <link id="lgx-master-style" rel="stylesheet" href="./assets/style-default.min.css" media="all">
 
+    <!-- CSS PreLoader -->
+    <link rel="stylesheet" href="./assets/loader.css" media="all">
+
     <!-- FAQ's -->
     <link rel="stylesheet" href="./assets/index.css">
     <!-- FAQ's END-->    
@@ -71,9 +74,9 @@
     <script src="./assets/modernizr-2.8.3.min.js"></script>
 <script type="text/javascript" charset="UTF-8" src="./assets/common.js"></script><script type="text/javascript" charset="UTF-8" src="./assets/util.js"></script><script type="text/javascript" charset="UTF-8" src="./assets/map.js"></script><script type="text/javascript" charset="UTF-8" src="./assets/marker.js"></script><link rel="stylesheet" href="./assets/demo-themeoptions.css" media="all"><script type="text/javascript" charset="UTF-8" src="./assets/infowindow.js"></script><script type="text/javascript" charset="UTF-8" src="./assets/onion.js"></script><script type="text/javascript" charset="UTF-8" src="./assets/AuthenticationService.Authenticate"></script></head>
 
-<body class="home">
+<body class="home scroll-lock">
 
-<div class="lgx-container ">
+<div class="lgx-container">
 <!-- ***  ADD YOUR SITE CONTENT HERE *** -->
 
 
@@ -114,7 +117,14 @@
 </header>
 <!--HEADER END-->
 
-
+<!-- LOADER ANIMATION -->
+<div class = "pre-loader scroll-lock">
+<div class="logo-txt">LOADING...</div>    
+<div class="codepad-logo">
+    <div class="logo"></div> 
+</div>
+</div>
+<!-- LOADER END -->
 
 
 
@@ -654,6 +664,9 @@
 
 <!--TIMELINE JS-->
 <script src="./assets/timeline.js"></script>
+
+<!--PRELOADER JS-->
+<script src="./assets/loader.js"></script>
 
 <script src="https://apply.devfolio.co/v2/sdk.js"></script>
 
