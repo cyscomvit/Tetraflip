@@ -17,6 +17,11 @@ footer {
   display: block;
   width: 100%;
 }
+.line2 {
+  text-align: center;
+  color: white;
+  font-size: 28px;
+}
 
 .line::after {
   content: "";
