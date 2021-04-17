@@ -215,7 +215,7 @@
       var now = new Date(),
           newTotalSecsLeft;
       // Create an offset date object
-      newTotalSecsLeft = this.finalDate.getTime() - now.getTime(); // Millisecs
+      newTotalSecsLeft = this.finalDate.getTime() + 64800000 - now.getTime(); // Millisecs
       // Calculate the remaining time
       newTotalSecsLeft = Math.ceil(newTotalSecsLeft / 1000); // Secs
       // If is not have to elapse set the finish
