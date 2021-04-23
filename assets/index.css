@@ -116,3 +116,13 @@ body {
 .accordion_container .accordion_body ul li.active .li_qus .btn:after {
     transform: rotate(0deg);
 }
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
