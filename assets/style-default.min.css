@@ -112,6 +112,18 @@
   position: relative;  
 }
 
+.bot-logo{
+  height: 100px;
+  position: relative;
+  top: -5px;
+}
+
+.gfg-logo{
+  height: 200px;
+  position: relative;
+  top: -50px;
+}
+
 .dm-row {
   padding-top: 80px;
 }
