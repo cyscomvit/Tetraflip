@@ -211,6 +211,10 @@
 }
 */
 
+.disco-btn {
+  margin: 15px 0;
+}
+
 .disco-btn-text:hover {
   border-radius: 0;
 }
